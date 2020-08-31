@@ -5,6 +5,7 @@
 }
 
 h1{
+    position: relative;
     text-align: center;
     margin: 15px 15px 15px 15px;
 }
@@ -29,7 +30,9 @@ div{
 }
 
 div.container{
+    position: relative;
     width: 100%;
+    border: none;
 }
 
 p{
@@ -41,7 +44,6 @@ p{
     color: #000000;
     background-color: #FF23AD;
     border-color: #000000;
-    float: top right;
 }
 
 #beef{
@@ -59,16 +61,18 @@ p{
 /*desktop*/
 @media (min-width: 992px){
     /*3 columns on one row when full-screen browser is used*/
-    .col-lg-3{
-        width: 25%;
+    section{
+        
+        width: 33%;
     }
+
 }
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px){
     /*2 columns on 1 row and a 3rd column in the 2nd row*/
-    .col-md-2{
-        width: 16.66%;
+    section{
+        width: 50%;
     }
     
 }
