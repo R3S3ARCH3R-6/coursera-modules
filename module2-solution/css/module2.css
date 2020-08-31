@@ -11,10 +11,11 @@ h1{
 }
 
 section{
-    border: 1pt solid #000000;
     position: relative;
+    border: 1pt solid #000000;
+    height: 50%;
     width: 90%;
-    margin: 15px;
+    margin-bottom: 15px;
     background-color: #AAAAAA;
 }
 
@@ -30,6 +31,7 @@ div{
 }
 
 div.container{
+    align-content: center;
     position: relative;
     width: 100%;
     border: none;
@@ -38,6 +40,8 @@ div.container{
 p{
     position: relative;
     top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #chicken{
@@ -62,17 +66,26 @@ p{
 @media (min-width: 992px){
     /*3 columns on one row when full-screen browser is used*/
     section{
-        
-        width: 33%;
+        float: left;
+        width: 25%;
+        height: 50%;
+        margin-right: 5px;
     }
-
 }
 
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px){
     /*2 columns on 1 row and a 3rd column in the 2nd row*/
     section{
+        float: left;
         width: 50%;
+        height: 50%;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     
+    section#m3{
+        float: left;
+        width: 90%;
+    }
 }
