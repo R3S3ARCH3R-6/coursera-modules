@@ -13,7 +13,7 @@ h1{
 section{
     position: relative;
     border: 1pt solid #000000;
-    height: 50%;
+    height: 100px;
     width: 90%;
     margin-bottom: 15px;
     background-color: #AAAAAA;
@@ -68,7 +68,7 @@ p{
     section{
         float: left;
         width: 25%;
-        height: 50%;
+        height: 200px;
         margin-right: 5px;
     }
 }
@@ -78,8 +78,8 @@ p{
     /*2 columns on 1 row and a 3rd column in the 2nd row*/
     section{
         float: left;
-        width: 50%;
-        height: 50%;
+        width: 44.5%;
+        height: 150px;
         margin-right: 5px;
         margin-left: 5px;
     }
