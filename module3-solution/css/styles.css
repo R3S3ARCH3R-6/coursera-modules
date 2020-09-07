@@ -1,0 +1,30 @@
+/**Header**/
+.navbar-brand{
+    margin-bottom: 0px;
+}
+/**End of Header**/
+
+/*Main Content*/
+
+/*End of Main Content*/
+
+
+/**Large Viewing Screens**/
+@media(min-width: 1200px){
+
+}
+
+/**Medium Viewing Screens**/
+@media(max-width: 1199px) and (min-width: 992px){
+
+}
+
+/**Small Viewing Screens**/
+@media(max-width: 991px) and (min-width: 768px){
+
+}
+
+/**Extra Small Viewing Screens**/
+@media(max-width: 767px){
+    
+}
