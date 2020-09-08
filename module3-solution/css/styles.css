@@ -1,17 +1,36 @@
 /**Header**/
+.container{
+    background: #2ad34f;
+}
+
 .navbar-brand{
-    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar .container{
+    background: #6e1283;
+    color: #ffffff
+}
+
+.navbar-nav {
+    background: #1172aF;
 }
 /**End of Header**/
 
 /*Main Content*/
+#title{
+    text-align: center;
+}
 
+#menu-name{
+    text-align: center;
+}
 /*End of Main Content*/
 
 
 /**Large Viewing Screens**/
 @media(min-width: 1200px){
-
+    s
 }
 
 /**Medium Viewing Screens**/
