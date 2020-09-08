@@ -1,14 +1,4 @@
 /**Header**/
-.navbar{
-    margin: 0;
-    padding: 0;
-}
-
-.navbar div{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
 
 .navbar-brand{
     padding: 0px 0px 0px 0px;
@@ -22,20 +12,18 @@
 .navbar-nav {
     background: #1172aF;
 }
-
 /**End of Header**/
 
 /*Main Content*/
-section{
-    position: relative;
-    background: #2ad34f;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
 .container{
     position: relative;
+    background: #2ad34f;
+    
+}
+#title{
+    width: 100%;
+    text-align: center;
+    background: #9adAf0;
 }
 
 .menu-name{
