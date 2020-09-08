@@ -1,13 +1,10 @@
 /**Header**/
-.container{
-    background: #2ad34f;
-}
 
 .navbar-brand{
     padding: 0px 0px 0px 0px;
 }
 
-.navbar .container{
+#header-nav .container{
     background: #6e1283;
     color: #ffffff
 }
@@ -18,32 +15,42 @@
 /**End of Header**/
 
 /*Main Content*/
-#title{
-    text-align: center;
-}
-
-#menu-name{
-    text-align: center;
-}
-/*End of Main Content*/
-
-
-/**Large Viewing Screens**/
-@media(min-width: 1200px){
-    s
-}
-
-/**Medium Viewing Screens**/
-@media(max-width: 1199px) and (min-width: 992px){
-
-}
-
-/**Small Viewing Screens**/
-@media(max-width: 991px) and (min-width: 768px){
-
-}
-
-/**Extra Small Viewing Screens**/
-@media(max-width: 767px){
+.container{
+    position: relative;
+    background: #2ad34f;
     
 }
+#title{
+    width: 100%;
+    text-align: center;
+    background: #9adAf0;
+}
+
+.menu-name{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+#chicken {
+    background: #FF0000; 
+}
+
+#beef{
+    background: #994422;
+}
+
+#sushi{
+    background: #eeaa11;
+}
+
+.navbar-nav > li{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color: #FFAA00;
+}
+/*End of Main Content*/
